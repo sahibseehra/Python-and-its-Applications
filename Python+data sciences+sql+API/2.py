@@ -1,0 +1,12 @@
+sum=0
+a=143
+b=a%10
+sum+=b
+a=a//10
+b=a%10
+sum+=b
+a=a//10
+b=a%10
+sum+=b
+a=a//10
+print(sum)
